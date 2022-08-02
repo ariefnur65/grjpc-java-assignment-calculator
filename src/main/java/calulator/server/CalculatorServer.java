@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class CalculatorServer {
     public static void main(String[] args) throws IOException, InterruptedException {
-        int port = 65001;
+        int port = 55001;
         Server server = ServerBuilder
                 .forPort(port)
                 .addService(new CalculatorServiceImpl())

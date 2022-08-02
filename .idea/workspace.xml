@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bf3cfa-71ba-4364-90eb-55d8652a7530" name="Changes" comment="initial commit for calculator assignment server" />
+    <list default="true" id="f8bf3cfa-71ba-4364-90eb-55d8652a7530" name="Changes" comment="change in workspace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/calulator/client/CalculatorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +49,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,7 +75,26 @@
     "last_opened_file_path": "H:/Repository/grjpc-java-assignment-calculator"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.grjpc-java-assignment-calculator [generateProto]">
+  <component name="RunManager" selected="Application.Calculator Client">
+    <configuration name="Calculator Client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="calulator.client.CalculatorClient" />
+      <module name="grjpc-java-assignment-calculator.main" />
+      <option name="PROGRAM_PARAMETERS" value="sum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator Server" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="calulator.server.CalculatorServer" />
+      <module name="grjpc-java-assignment-calculator.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="grjpc-java-assignment-calculator [extractProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,7 +121,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -108,6 +137,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Calculator Client" />
+      <item itemvalue="Application.Calculator Server" />
+      <item itemvalue="Gradle.grjpc-java-assignment-calculator [extractProto]" />
+      <item itemvalue="Gradle.grjpc-java-assignment-calculator [generateProto]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.grjpc-java-assignment-calculator [generateProto]" />
@@ -131,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659445477446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change in workspace">
+      <created>1659445569245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659445569245</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit for calculator assignment server" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit for calculator assignment server" />
+    <MESSAGE value="change in workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in workspace" />
   </component>
 </project>
