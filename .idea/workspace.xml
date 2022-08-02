@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bf3cfa-71ba-4364-90eb-55d8652a7530" name="Changes" comment="change in workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calulator/client/CalculatorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f8bf3cfa-71ba-4364-90eb-55d8652a7530" name="Changes" comment="Add calculator client for sum operation">
+      <change afterPath="$PROJECT_DIR$/src/main/proto/calculator/calculator.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/calculator/sum-calc.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/calculator/sum-calc.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659445569245</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add calculator client for sum operation">
+      <created>1659446932375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659446932375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit for calculator assignment server" />
     <MESSAGE value="change in workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in workspace" />
+    <MESSAGE value="Add calculator client for sum operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add calculator client for sum operation" />
   </component>
 </project>
